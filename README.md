@@ -27,7 +27,7 @@ The data consists of a dynamic table of every match played by the Dutch Women's 
 The total amount of matches scraped conists of 118 matches, and they were all scraped on the 20th of December, 2025. The oldest match in the table was played on the 11th of January 2020 against China, which resulted in a 3 - 0 win for The Netherlands, and the latest match was on the 12th of December 2025 against Germany, which resulted in a 5 - 1 win for The Netherlands.
 
 ### 4. Cleaning of the Data
-I removed the (5) or (10) in the `result` column, because they are part of a formula to calculate the amount of points that are exchanged after a match. Moreover, those numbers between parentheses are not necessary to know the result of the match. The amount of points that are exchanged after a match can also be found in the *nl_women_fih.csv* file that I created, as part of the `point_difference` column.
+I removed the (5) or (10) in the `result` column, because they are part of a formula to calculate the amount of points that are exchanged after a match. Moreover, those numbers between parentheses are not necessary to know the result of the match. The amount of points that are exchanged after a match can also be found in the *nl_women_fih.csv* file, as part of the `point_difference` column.
 
 ### 5. Format of the Files in the Corpus
 The corpus is in CSV format.
