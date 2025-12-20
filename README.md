@@ -1,4 +1,4 @@
-# Assignment_3_Resubmission
+# Assignment 3 Resubmission
 Course: Collecting Data | Student Number: S6494935
 
 ### 1. Different Website Scraped for Resubmission
