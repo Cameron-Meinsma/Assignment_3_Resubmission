@@ -24,7 +24,7 @@ The corpus consists of 1 CSV file, which contains 10 columns:
 ### 3. Scraped Data
 The data consists of a dynamic table of every match played by the Dutch Women's National Outdoor Field Hockey team, between 2020 and the present. This table is available on the International Hockey Federation website, and can be found under Rankings.
 
-The total amount of matches scraped conists of 118 matches, and they were all scraped on the December 20th 2025. The oldest match in the table was played on the 11th of January 2020 against China, which resulted in a 3 - 0 win for The Netherlands, and the latest match was on the 12th of December 2025 against Germany, which resulted in a 5 - 1 win for The Netherlands.
+The total amount of matches scraped conists of 118 matches, and they were all scraped on the 20th of December, 2025. The oldest match in the table was played on the 11th of January 2020 against China, which resulted in a 3 - 0 win for The Netherlands, and the latest match was on the 12th of December 2025 against Germany, which resulted in a 5 - 1 win for The Netherlands.
 
 ### 4. Cleaning of the Data
 I removed the (5) or (10) in the `result` column, because they are part of a formula to calculate the amount of points that are exchanged after a match. Moreover, those numbers between parentheses are not necessary to know the result of the match. The amount of points that are exchanged after a match can also be found in the *nl_women_fih.csv* file that I created, as part of the `point_difference` column.
